@@ -1,0 +1,20 @@
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+
+# WhatsApp session credentials (sensitive)
+auth_info_baileys/
+
+# Runtime data / lead storage
+database/*.json
+database/*.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
